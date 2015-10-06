@@ -1,14 +1,14 @@
 /**
  * Created by session1 on 10/6/15.
  */
-var blank = prompt("What is your name?")
+var blank = prompt("What is your name?");
 if (blank !== null) {
     alert("Hello " + blank + ". ready to play?");
 
-    alert("You start at your friend Mollees house and Jose and Rogelio are there with you. You guys are having a hackathon and Jose keeps complaining that he's hungry.He suggests that you all go to McDonalds taking a short cut through the woods behind Mollee's house. Mollee stays behind because she fears the legend of sonclaw, An old computer programming teacher who haunts the woods and waits for coders to walk through late at night so he can use there knowledge for the ultimate hack. Jose doesnt believe in Sonclaw and Rogelio really wanted food so they went through the woods to McDonalds.");
+    alert("You start at your friend Mollee's house and Jose and Rogelio are there with you. You guys are having a hackathon and Jose keeps complaining that he's hungry.He suggests that you all go to McDonalds taking a short cut through the woods behind Mollee's house. Mollee stays behind because she fears the legend of sonclaw, An old computer programming teacher who haunts the woods and waits for coders to walk through late at night so he can use there knowledge for the ultimate hack. Jose doesnt believe in Sonclaw and Rogelio really wanted food so they went through the woods to McDonalds.");
 }
 
-var question1 = prompt("Do you choose to follow (A) Rogelio or (C)Jose (B) or stay with Mollee").toUpperCase()
+var question1 = prompt("Do you choose to follow (A) Rogelio or (C)Jose (B) or stay with Mollee").toUpperCase();
 
 switch (question1) {
     case "A"://Rogelio's Chapter
@@ -31,7 +31,7 @@ switch (question1) {
             if(q3 === "A"){
                 hasCookie = 1;
                 alert("Rogelio says 'Good Choice'");
-                alert("suddenly sonclaw comes");
+                alert("suddenly Sonclaw comes");
                 var q4 = prompt("Do you throw the cookie at him? (A) yes or (B) no?").toUpperCase();
                 if(q4 === "A"){
                     hasCookie = 0;
@@ -41,7 +41,7 @@ switch (question1) {
                         alert("You end up in the bathroom DEAD END");
                         alert("You Dead");
                         if(q5 === "A"){
-                            alert("You found an exit you leave weast-mek")
+                            alert("You found an exit you leave weast-mek");
                             alert("You win");
                         }
 
@@ -66,7 +66,7 @@ switch (question1) {
     case "B"://chapter Mollee
         alert("You chose to go with Mollee");
 
-        alert("Mollee- 'Well I don't think we'll be seeing them ever again' ")
+        alert("Mollee- 'Well I don't think we'll be seeing them ever again' ");
 
         var userAnswer = prompt("Sooo should we watch hulu+ or Netflix ? Choose wisely!");
 
@@ -119,18 +119,38 @@ switch (question1) {
         break;
     case "C"://chapter Jose
         alert("You chose to go with Jose");
-        alert(" Ten minuites pass as Rogelio, Jose and" + " " + blank +"continue to walk into the forest. All three of the friends are anxious to get there meal at McDonald's. The group of friends talk about the 'Myth' of Sonclaw while traveling throughout the dark eerie woods. The creepy descriptionso f The oSnlcaw spook the friends just hearing the spin chilling name. pn the middle of the conversation they hear a noise of crackling branches and bushes moving around behind them. While the group walks faster thinking it is Mollee playing a sick joke on all three of them." " " + blank + " doesn't even bother to look as the other two do. As" + blank + " tells the others that he knows for a fact that it is Mollee playing a joke on them. Jose and roger feels query about the noise and tells the you to come check it out with them.");
-        var userMainAnswer = prompt("What do you do? (A) 'Keep walking' or (B) 'Follow the guys into the forest'");
-        if (userMainAnswer==="A") {
-            alert("You choose to keep walking?");
-            alert( Blank + " keeps walking and ignores as Rrolgio and Joseg o on to follow the noise." + blank + " thinks the both guys are playing a joke, so you walk away then jokingly yell out 'I'll meet you at Mcdonal's!'. Moments later you hear a scream of the two guys crying for help.")
-            var choiceOneFromWalking = prompt("What should you do next? (A)B'e confident and walk away ' or (B) 'Go back running to help your friends'");
-            if(choiceOneFromWalking===) {
-                alert("You got Carrie - A reimagining of the classic horror tale about Carrie White, a shy girl outcast by her peers and sheltered by her deeply religious mother, who unleashes telekinetic terror on her small town after being pushed too far at her senior prom.");
-            }
-            alert("You choose to be confident and walk away")
-            alert("Confient about them playing a joke so you keep on walking and do not bother to turn around makes it to mcd notices they never return so he waits a hour and he just goes home thinking nothing of it. the next moring comes and Mollee calls player. Mollee explains dramaticly that the guys never returned home after they went with him in the woods. Palyer tells them that it was a mean joke to play on someone like that and mollee goes on about what joke was player was talking about? Both confused they both get worried. What do you tell her? ");
 
+        alert("Ten minutes pass as Rogelio, Jose and " + blank + " continue to walk into the forest. All three of the friends are anxious to get there meal at McDonald's. The group of friends talk about the 'Myth' of Sonclaw while traveling throughout the dark eerie woods. The creepy description of The Sonclaw spook the friends just hearing the spin chilling name. In the middle of the conversation they hear a noise of crackling branches and bushes moving around behind them. While the group walks faster thinking it is Mollee playing a sick joke on all three of them." blank + " doesn't even bother to look as the other two do. As " +  blank " tells the others that he knows for a fact that it is Mollee playing a joke on them. Jose and Rogelio feels query about the noise and tells the you to come check it out with them.");
+
+        var userMainAnswer = prompt("What do you do? (A) 'Keep walking' or (B) 'Follow the guys into the forest' ");
+        if (userMainAnswer=== "A") {
+            alert("You choose to keep walking?");
+            alert( Blank + " keeps walking and ignores as Roglio and Jose go on to follow the noise." + blank + " thinks the both guys are playing a joke, so you walk away then jokingly and yell out 'I'll meet you at Mcdonald's!'. Moments later you hear a scream of the two guys crying for help.");
+        else(userMainAnswer==="B") {
+                alert()
+
+            }
+            var choiceOneFromWalking = prompt("What should you do next? (A) 'Be confident and walk away' or (B) 'Go back running to help your friends' ");
+            if(choiceOneFromWalking==="A") {
+                alert("You chose to be confident and walk away");
+                alert("Confident about them playing a joke so You keep on walking and not bother to turn around. Few more minutes pass until you make it out the forest and into McDonald's." + blank + " notices they never return so you wait a hour, Rogeilo and Jose never appear so you just goes home thinking nothing of it. The next morning comes and Mollee calls you. Mollee explains dramatically that the guys never returned home after they went with him in the woods. You tell them that it was a mean joke to play on someone like that and Mollee goes on about what joke was player was talking about? Both confused they both get worried.");
+            }
+            else {
+                alert("Goes back to find Roglio")
+                alert("Player hurries back to their friends to see what has happen. Once player goes back to see what has happen to their friends they were gone. You see a figure in the shadow however it is hard to make up to see who it is. The dark grey polo is all you can make up. Then player can see a glare shinnying on the glasses and then you remember about the description of Jose and Roger say of Sonclaw. It is HIM!!! He tells you with a deep voice to come follow him.")
+                var choiceRunsBack = prompt("What do you? (A) 'Call the police' (B) Investigate later that night with Mollee");
+
+            }
+            var choiceTwoFromWalking = prompt("What do you tell her? (A) 'Call the police' (B) Investigate later that night with Mollee");
+            if(choiceTwoFromWalking==="A") {
+                alert("You call the police");
+                alert("As you call the cops and tell them about everything you know about  what happen the night before they go investigate. You and Mollee explain the Sonclaw to them that he haunts the woods in the myth they heard however, the cops do not believe a thing about the Sonclaw. The police investigate but the boys were never seen again...");
+            }
+            else{
+                alert("Investigate later that night");
+                alert("You tell Mollee that they should both investigate by themselves in the woods later that night. She agrees. When night comes Mollee and Player go out and investigate. Once they went into the forest... They never came out.")
+            }
+        }
 
 
             if()
